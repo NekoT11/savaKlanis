@@ -2,6 +2,7 @@
     "db": {
         "partners": [
             {
+                "id": 1,
                 "name": "Пицца Плюс",
                 "time_of_delivery": 50,
                 "stars": 4.5,
@@ -11,6 +12,7 @@
                 "products": "pizza-plus.json"
             },
             {
+                "id": 2,
                 "name": "Тануки",
                 "time_of_delivery": 60,
                 "stars": 4.3,
@@ -20,6 +22,7 @@
                 "products": "tanuki.json"
             },
             {
+                "id": 3,
                 "name": "FoodBand",
                 "time_of_delivery": 40,
                 "stars": 4.4,
@@ -29,6 +32,7 @@
                 "products": "food-band.json"
             },
             {
+                "id": 4,
                 "name": "Палки скалки",
                 "time_of_delivery": 55,
                 "stars": 4.1,
@@ -38,6 +42,7 @@
                 "products": "palki-skalki.json"
             },
             {
+                "id": 5,
                 "name": "Гуси Лебеди",
                 "time_of_delivery": 75,
                 "stars": 4.7,
@@ -47,6 +52,7 @@
                 "products": "gusi-lebedi.json"
             },
             {
+                "id": 6,
                 "name": "PizzaBurger",
                 "time_of_delivery": 45,
                 "stars": 4.6,
@@ -56,7 +62,7 @@
                 "products": "pizza-burger.json"
             }
         ],
-        "food-band": [
+        "3": [
             {
                 "id": "fb01",
                 "name": "Мясная",
@@ -100,7 +106,7 @@
                 "image": "img/food-band/norwegian.jpg"
             }
         ],
-        "gusi-lebedi": [
+        "5": [
             {
                 "id": "gl01",
                 "name": "Пельмени теленок с поросем",
@@ -165,7 +171,7 @@
                 "image": "img/gusi-lebedi/ear.jpg"
             }
         ],
-        "palki-skalki": [
+        "4": [
             {
                 "id": "ps01",
                 "name": "Комбо 3 пиццы",
@@ -209,7 +215,7 @@
                 "image": "img/palki-skalki/burrito.jpg"
             }
         ],
-        "pizza-burger": [
+        "6": [
             {
                 "id": "pb01",
                 "name": "Пицца от Шеф-повара",
@@ -253,7 +259,7 @@
                 "image": "img/pizza-burger/pizza-dacha.jpg"
             }
         ],
-        "pizza-plus": [
+        "1": [
             {
                 "id": "pp01",
                 "name": "Пицца Везувий",
@@ -297,7 +303,7 @@
                 "image": "img/pizza-plus/pizza-classic.jpg"
             }
         ],
-        "tanuki": [
+        "2": [
             {
                 "id": "tn01",
                 "name": "ФИЛАДЕЛЬФИЯ НИСУАЗ",

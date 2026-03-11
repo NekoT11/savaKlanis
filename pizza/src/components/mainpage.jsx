@@ -6,14 +6,15 @@ export default function MainPage() {
     <div className="px-60">
       <Head />
       <div>
-      <section className="bg-[url('./img/promo/pizza.png')]  ">
-					<h1 className="">Онлайн-сервис <br />доставки еды на дом</h1>
-					<p className="">
+ <section className="container-promo">
+				<section className="promo pizza">
+					<h1 className="promo-title">Онлайн-сервис <br />доставки еды на дом</h1>
+					<p className="promo-text">
 						Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком
 					</p>
 				</section>
-        
-        {/* <Card /> */}
+        </section>
+        <Card />
       </div>
     </div>
   );

@@ -1,15 +1,19 @@
 export function Head() {
   return (
-    <div className="w-full h-20 items-center flex justify-center">
-      <header className="flex flex-row items-center justify-between w-full">
-        <a>
-          <img src="img/icon/logo.svg" alt="Logo" />
-        </a>
-        <input className="w-2/3 border border-gray-400 p-2 rounded-sm" type="text" placeholder="Адрес доставки" />
-        <div>
-          <button className="bg-blue-400 w-30 p-2 text-white rounded-sm">Войти</button>
+  <div className="header">
+			<a className="logo">
+				<img src="img/icon/logo.svg" alt="Logo" />
+			</a>
+			<label className="address">
+				<input type="text" className="input input-address" placeholder="Адрес доставки" />
+			</label>
+			<div className="buttons">
+				<span className="user-name"></span>
+				<button className="button button-primary button-auth">
+					<span className="button-auth-svg"></span>
+					<span className="button-text">Войти</span>
+				</button>
         </div>
-      </header>
-    </div>
+      </div>
   );
 }
